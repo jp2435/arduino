@@ -1,15 +1,15 @@
-// Exemplo de código usando uma placa de ensaico com um motor servo
+// Exemplo de código usando uma placa de ensaio com um motor servo
 // C++ code
 //
 #include <Servo.h>
 
 int pos = 0;
-Servo servo_3;
+Servo servo_9;
 
 void setup()
 {
   pinMode(LED_BUILTIN, OUTPUT);
-  servo_3.attach(3, 500, 2500);
+  servo_3.attach(9, 500, 2500);
 }
 
 void loop()
